@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lists{
+    display: flex;
+    background: rgb(252, 252, 250);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    background: blueviolet;
+    height: 80vh;
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.list{
+    margin-top: 300px;
+    display: flex;
+    background: blueviolet;
+    height: 80px;
+    width: 50%;
+    margin-left: 250px;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child2{
+    display: flex;
+    flex-direction: column;
+    background: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    
+}
+
+
+
+.list-item{
+    
+    display: flex;
+    /* background: url(); */
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: transparent;
+    
+
+}
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 239, 239);
+    color: white;
+    
+    
+}
+
+#eggo {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripEggo.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+#cheeso {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripCheeso.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+#chimken {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripChimken.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+#brocco {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripBrocco.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+#lemon {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripLemon.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+#tomato {
+    position : relative;
+    /* transform: translate(-50%, 50%); */
+    width : calc(270px/6);
+    height : 45px;
+    background : url(StripTomato.png);
+    animation : animate 1s steps(6) infinite;
+}
+
+@keyframes animate {
+    from {
+        background-position : 0;
+    }
+    to {
+        background-position : 270px;
+    }
+}
