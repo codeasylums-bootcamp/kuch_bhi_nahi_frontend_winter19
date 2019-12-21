@@ -29,7 +29,9 @@ for (let i = 0; i < list_items.length; i++) {
 			draggedItem.style.display = 'block';
 			draggedItem = null;
 		}, 0);
-	})
+    })
+    
+  
 
 	// for (let j = 0; j < lists.length; j ++) {
 		const list = lists[0];
@@ -77,8 +79,12 @@ for (let i = 0; i < list_items.length; i++) {
                         </div>
                           `
                         }
-                       let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Chicken : ${calChimken} kcal</div>`;
+                       let output1 = `<div class=" button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Chicken : ${calChimken} kcal</div>`;
+                       
+                       
                        document.getElementById('chicken').innerHTML = output1;
+                       
+
         document.getElementById('data').innerHTML = output;
  
                     })
@@ -112,7 +118,7 @@ if(eggo!=0){
             </div>
               `
             }
-            let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Egg : ${calEggo} kcal</div>`;
+            let output1 = `<div class="button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Egg : ${calEggo} kcal</div>`;
                        document.getElementById('egg').innerHTML = output1;
 document.getElementById('data1').innerHTML = output;
         })
@@ -175,7 +181,7 @@ if(brocco!=0){
             </div>
               `
             }
-            let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Broccoli : ${calBrocco} kcal</div>`;
+            let output1 = `<div class="button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Broccoli : ${calBrocco} kcal</div>`;
                        document.getElementById('broccoli').innerHTML = output1;
 document.getElementById('data2').innerHTML = output;
         })
@@ -208,7 +214,7 @@ if(tomato!=0){
             </div>
               `
             }
-            let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Tomato : ${calTomato} kcal</div>`;
+            let output1 = `<div class="button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Tomato : ${calTomato} kcal</div>`;
             document.getElementById('tomat').innerHTML = output1;
 document.getElementById('data3').innerHTML = output;
         })
@@ -243,7 +249,7 @@ if(lemon!=0){
             }
             
             
-            let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Lemon : ${calLemon} kcal</div>`;
+            let output1 = `<div class="button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Lemon : ${calLemon} kcal</div>`;
             document.getElementById('lemo').innerHTML = output1;
 document.getElementById('data4').innerHTML = output;
         })
@@ -277,7 +283,7 @@ if(cheeso!=0){
             </div>
               `
             }
-            let output1 = `<div class="text-light" style="font-size: 50%; font-family: 'Lilita One', cursive;">Cheese : ${calCheeso} kcal</div>`;
+            let output1 = `<div class="button1" style="font-size: 50%; font-family: 'Lilita One', cursive;">Cheese : ${calCheeso} kcal</div>`;
             document.getElementById('cheese').innerHTML = output1;
 document.getElementById('data5').innerHTML = output;
         })
